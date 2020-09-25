@@ -1831,14 +1831,19 @@
         "signature": "7d0de11775b2842d1eafafb6f72f8d858d765d2a02115ebdc6d3bb0b4ad4b11f",
         "affectsGlobalScope": false
       },
+      "./src/models/detalle-liga.model.ts": {
+        "version": "e00d3d6c26f37b614ec6b81a5296a6efe9f8a64241048ae1a7ed9e9e2a7e0e63",
+        "signature": "86e05c1fa68db620a40da5b2349f851e690be28dda057d646da80c97c209fb2a",
+        "affectsGlobalScope": false
+      },
       "./src/models/liga.model.ts": {
-        "version": "0447ab18ae03cd1a1e770888ab5cf5b6d89fcdc94769642d3f509e797c72a40e",
-        "signature": "ef4939ea093b42d9b6c753227a8cc65824f22735ce0785deb286f0e68a520017",
+        "version": "22db5857465c9997ee2253c5adaabc3b404183300cb13ad8dfabe783155e10eb",
+        "signature": "da4e542e4b2e4b1ce6458c7591a1f8b2accb11f42dde88b1a0e2820ae009a775",
         "affectsGlobalScope": false
       },
       "./src/models/index.ts": {
-        "version": "e112478b16e7869aa4ea11b58a59f7a7cb03b24fb0b6ac22c9c0a949c31a6224",
-        "signature": "e112478b16e7869aa4ea11b58a59f7a7cb03b24fb0b6ac22c9c0a949c31a6224",
+        "version": "52e37fc48d9707644920b479cc6af455039676c4b6da78d3b8008b1c1b745c27",
+        "signature": "52e37fc48d9707644920b479cc6af455039676c4b6da78d3b8008b1c1b745c27",
         "affectsGlobalScope": false
       },
       "./src/datasources/mongo.datasource.ts": {
@@ -1851,9 +1856,14 @@
         "signature": "970dfe29ef8492849da07c92af8ddedda93540d88c81faab88ef81159af49eed",
         "affectsGlobalScope": false
       },
+      "./src/repositories/detalle-liga.repository.ts": {
+        "version": "33b0ba5c098ad685ac0f8d4e6a928572cf688e87b3a950c09d324d064c065265",
+        "signature": "50277432ab37ab8bc20790a7bb5168d5457f74a97f07d0920f7dc88e08a51cf5",
+        "affectsGlobalScope": false
+      },
       "./src/repositories/liga.repository.ts": {
-        "version": "0432a3f22ec4837754682f239b62f500752f2dfca5a0310989e099de6307a505",
-        "signature": "78a929436a916741f5fa77fd53c3fd53916808da40ebbcd27ddb9fda98a6d96c",
+        "version": "43cf12f673d5654741efe15bb677bfc93e3b7902e91cac26074df7cb436eeb60",
+        "signature": "129f67c91491d5b356962dbf0b7d6584be6954bf2304d79a3dda648378663539",
         "affectsGlobalScope": false
       },
       "./src/repositories/equipo.repository.ts": {
@@ -1862,13 +1872,18 @@
         "affectsGlobalScope": false
       },
       "./src/repositories/index.ts": {
-        "version": "3bd48377289098b24c53a46d81daa8783366264f39f8dcd3165c291bf8e85321",
-        "signature": "3bd48377289098b24c53a46d81daa8783366264f39f8dcd3165c291bf8e85321",
+        "version": "00e6741390f1ba135433d11a1f0ead7a9f003d98b3cd1c2b4b247eac645aaa8b",
+        "signature": "00e6741390f1ba135433d11a1f0ead7a9f003d98b3cd1c2b4b247eac645aaa8b",
+        "affectsGlobalScope": false
+      },
+      "./src/controllers/detalle-liga.controller.ts": {
+        "version": "b4b5c94682357201985e71816dda3e80cf8dce2b0358604e3e4107647b4c1963",
+        "signature": "f2c080e317c455963001832a127bc825dd35ac71c2d89da6f0462ddb1b646f0c",
         "affectsGlobalScope": false
       },
       "./src/controllers/equipo.controller.ts": {
-        "version": "adbfce7bc5caf5f116f718ee38f1799d0fd14c2cb191d65b6b40cff40808c2df",
-        "signature": "ff43b570cd1616dab27a4c8f69c7ccdc7ba5333a59144999c62621b08d89acf1",
+        "version": "1171049e4c51962bdf494abf83a28c1476c731502771594e98dc076d8053025c",
+        "signature": "26a5b67903ecb9de0551a57d23a570e968d658ae1275a85eda4dfc7fbf98e0de",
         "affectsGlobalScope": false
       },
       "./src/controllers/ping.controller.ts": {
@@ -1877,13 +1892,13 @@
         "affectsGlobalScope": false
       },
       "./src/controllers/ligas.controller.ts": {
-        "version": "0e0b1fd14830823efca422f522bacff3ebbdce1255bd617b9b80f2194833e2e2",
-        "signature": "286219415fce6c545a17d6c83b41858112b8ef7357a17af2c7fb7711d4f5c448",
+        "version": "7c958311ab339ba1cc60f4d92b27b0af0951247ddfcdfce4fa38ce996c05fc8e",
+        "signature": "29ba633f5946faecab54449d87e4a26facbebc568683adc79ce394f5d0c3a48b",
         "affectsGlobalScope": false
       },
       "./src/controllers/index.ts": {
-        "version": "c882929b1a0d3e9edfbc92894e411584fd29a0eca2b823a55056a27b0ee97ebe",
-        "signature": "c882929b1a0d3e9edfbc92894e411584fd29a0eca2b823a55056a27b0ee97ebe",
+        "version": "a78ac41cedceea3e45ff8a0440aef16c64a60ba31ca3ccf8613da1602e983aaa",
+        "signature": "a78ac41cedceea3e45ff8a0440aef16c64a60ba31ca3ccf8613da1602e983aaa",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
@@ -3459,6 +3474,12 @@
         "./node_modules/@types/node/path.d.ts",
         "./src/sequence.ts"
       ],
+      "./src/controllers/detalle-liga.controller.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@loopback/rest/dist/index.d.ts",
+        "./src/models/index.ts",
+        "./src/repositories/index.ts"
+      ],
       "./src/controllers/equipo.controller.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./node_modules/@loopback/rest/dist/index.d.ts",
@@ -3466,6 +3487,7 @@
         "./src/repositories/index.ts"
       ],
       "./src/controllers/index.ts": [
+        "./src/controllers/detalle-liga.controller.ts",
         "./src/controllers/equipo.controller.ts",
         "./src/controllers/ligas.controller.ts",
         "./src/controllers/ping.controller.ts"
@@ -3493,21 +3515,36 @@
       "./src/migrate.ts": [
         "./src/application.ts"
       ],
+      "./src/models/detalle-liga.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/models/equipo.model.ts",
+        "./src/models/liga.model.ts"
+      ],
       "./src/models/equipo.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./src/models/liga.model.ts"
       ],
       "./src/models/index.ts": [
+        "./src/models/detalle-liga.model.ts",
         "./src/models/equipo.model.ts",
         "./src/models/liga.model.ts"
       ],
       "./src/models/liga.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/models/detalle-liga.model.ts",
         "./src/models/equipo.model.ts"
       ],
       "./src/openapi-spec.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
         "./src/application.ts"
+      ],
+      "./src/repositories/detalle-liga.repository.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts",
+        "./src/repositories/equipo.repository.ts",
+        "./src/repositories/liga.repository.ts"
       ],
       "./src/repositories/equipo.repository.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
@@ -3517,6 +3554,7 @@
         "./src/repositories/liga.repository.ts"
       ],
       "./src/repositories/index.ts": [
+        "./src/repositories/detalle-liga.repository.ts",
         "./src/repositories/equipo.repository.ts",
         "./src/repositories/liga.repository.ts"
       ],
@@ -3525,6 +3563,7 @@
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./src/datasources/index.ts",
         "./src/models/index.ts",
+        "./src/repositories/detalle-liga.repository.ts",
         "./src/repositories/equipo.repository.ts"
       ],
       "./src/sequence.ts": [
@@ -5032,12 +5071,18 @@
         "./node_modules/@loopback/rest/dist/index.d.ts",
         "./node_modules/loopback-datasource-juggler/index.d.ts"
       ],
+      "./src/controllers/detalle-liga.controller.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/models/index.ts",
+        "./src/repositories/index.ts"
+      ],
       "./src/controllers/equipo.controller.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./src/models/index.ts",
         "./src/repositories/index.ts"
       ],
       "./src/controllers/index.ts": [
+        "./src/controllers/detalle-liga.controller.ts",
         "./src/controllers/equipo.controller.ts",
         "./src/controllers/ligas.controller.ts",
         "./src/controllers/ping.controller.ts"
@@ -5060,15 +5105,28 @@
       "./src/index.ts": [
         "./src/application.ts"
       ],
+      "./src/models/detalle-liga.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts"
+      ],
       "./src/models/equipo.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
       "./src/models/index.ts": [
+        "./src/models/detalle-liga.model.ts",
         "./src/models/equipo.model.ts",
         "./src/models/liga.model.ts"
       ],
       "./src/models/liga.model.ts": [
-        "./node_modules/@loopback/repository/dist/index.d.ts"
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/models/detalle-liga.model.ts"
+      ],
+      "./src/repositories/detalle-liga.repository.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts",
+        "./src/repositories/equipo.repository.ts",
+        "./src/repositories/liga.repository.ts"
       ],
       "./src/repositories/equipo.repository.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
@@ -5078,6 +5136,7 @@
         "./src/repositories/liga.repository.ts"
       ],
       "./src/repositories/index.ts": [
+        "./src/repositories/detalle-liga.repository.ts",
         "./src/repositories/equipo.repository.ts",
         "./src/repositories/liga.repository.ts"
       ],
@@ -5086,6 +5145,7 @@
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./src/datasources/index.ts",
         "./src/models/index.ts",
+        "./src/repositories/detalle-liga.repository.ts",
         "./src/repositories/equipo.repository.ts"
       ],
       "./src/sequence.ts": [
@@ -5461,6 +5521,7 @@
       "./src/__tests__/acceptance/ping.controller.acceptance.ts",
       "./src/__tests__/acceptance/test-helper.ts",
       "./src/application.ts",
+      "./src/controllers/detalle-liga.controller.ts",
       "./src/controllers/equipo.controller.ts",
       "./src/controllers/index.ts",
       "./src/controllers/ligas.controller.ts",
@@ -5469,10 +5530,12 @@
       "./src/datasources/mongo.datasource.ts",
       "./src/index.ts",
       "./src/migrate.ts",
+      "./src/models/detalle-liga.model.ts",
       "./src/models/equipo.model.ts",
       "./src/models/index.ts",
       "./src/models/liga.model.ts",
       "./src/openapi-spec.ts",
+      "./src/repositories/detalle-liga.repository.ts",
       "./src/repositories/equipo.repository.ts",
       "./src/repositories/index.ts",
       "./src/repositories/liga.repository.ts",

@@ -78,10 +78,8 @@ export class LigasController {
       },
     },
   })
-  async find(
-    @param.filter(Liga) filter?: Filter<Liga>,
-  ): Promise<Liga[]> {
-    return this.ligaRepository.find(filter);
+  async find(): Promise<Liga[]> {
+    return this.ligaRepository.find();
   }
 
   @get('/ligas/{id}', {
@@ -98,9 +96,21 @@ export class LigasController {
   })
   async findById(
     @param.path.string('id') id: string,
-    @param.filter(Liga, {exclude: 'where'}) filter?: FilterExcludingWhere<Liga>
   ): Promise<Liga> {
-    return this.ligaRepository.findById(id, filter);
+    return this.ligaRepository.findById(id, {
+      "include": [
+        {
+          "relation": "detalle",
+          "scope": {
+            "include": [
+              {
+                "relation": "equipo"
+              }
+            ]
+          }
+        }
+      ]
+    });
   }
 
   @put('/ligas/{id}', {

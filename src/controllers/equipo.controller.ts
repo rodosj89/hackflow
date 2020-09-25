@@ -78,10 +78,8 @@ export class EquipoController {
       },
     },
   })
-  async find(
-    @param.filter(Equipo) filter?: Filter<Equipo>,
-  ): Promise<Equipo[]> {
-    return this.equipoRepository.find(filter);
+  async find(): Promise<Equipo[]> {
+    return this.equipoRepository.find();
   }
 
   @get('/equipos/{id}', {
