@@ -54,12 +54,16 @@ export class SubcribesController {
       }
     });
     usuario.id = id;
+    usuario.leagues = usuario.leagues || [];
+    usuario.teams = usuario.teams || [];
     if (!usuarioStored) 
       return this.usuarioRepository.create(usuario);
     
-    usuario.leagues = usuario.leagues.concat(usuarioStored.leagues);
-    usuario.teams = usuario.teams.concat(usuarioStored.teams);
-    this.usuarioRepository.updateById(id, usuario);
+    //@ts-ignore
+    usuario.leagues = usuarioStored.leagues ? usuarioStored.leagues.concat(usuario.leagues.filter(l => !usuarioStored.leagues.includes(l))) : usuario.leagues;
+    //@ts-ignore
+    usuario.teams = usuarioStored.teams ? usuarioStored.teams.concat(usuario.teams.filter(t => !usuarioStored.teams.includes(t))) : usuario.teams;
+    await this.usuarioRepository.updateById(id, usuario);
     return this.usuarioRepository.findById(id);
   }
 
@@ -86,9 +90,11 @@ export class SubcribesController {
     })
     usuario: Usuario,
   ): Promise<Usuario> {
-    let usuarioStored = await this.usuarioRepository.findById(id);    
+    let usuarioStored = await this.usuarioRepository.findById(id);
+    usuario.leagues = usuario.leagues || [];
+    usuario.teams = usuario.teams || [];
     usuario.leagues = usuarioStored.leagues ? usuarioStored.leagues.filter(l => !usuario.leagues.includes(l)) : [];
-    usuario.teams = usuarioStored.teams ? usuarioStored.teams.filter(l => !usuario.teams.includes(l)) : [];
+    usuario.teams = usuarioStored.teams ? usuarioStored.teams.filter(t => !usuario.teams.includes(t)) : [];
     await this.usuarioRepository.updateById(id, usuario);
     return this.usuarioRepository.findById(id);
   }
